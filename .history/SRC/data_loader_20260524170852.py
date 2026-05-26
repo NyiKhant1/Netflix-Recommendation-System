@@ -12,10 +12,3 @@ def load_clean_data():
     cleaned_data_path = '../Data/Clean/cleaned_data.csv'
     df = pd.read_csv(cleaned_data_path)
     return df
-
-def load_data(path):
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"The file {path} does not exist.")
-    
-    df = pd.read_csv(path)
-    return df
