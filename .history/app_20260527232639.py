@@ -25,7 +25,8 @@ def recommend(movie):
 
     return recommended_movies
 
-print (recommend('Harry Potter and the Half-Blood Prince'))
+print (recommend('Harry Potter and the Half-Blood Prince
+'))
 
 if __name__ == '__main__':
     app.run(debug=True)

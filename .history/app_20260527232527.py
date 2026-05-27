@@ -16,7 +16,7 @@ def recommend(movie):
         list(enumerate(distances)),
         reverse=True,
         key=lambda x: x[1]
-    )[1:8]
+    )[1:]
 
     recommended_movies = []
 
@@ -25,7 +25,7 @@ def recommend(movie):
 
     return recommended_movies
 
-print (recommend('Harry Potter and the Half-Blood Prince'))
+print (recommend('Avatar'))
 
 if __name__ == '__main__':
     app.run(debug=True)
