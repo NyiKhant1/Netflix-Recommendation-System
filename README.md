@@ -26,22 +26,33 @@ When a user selects a movie:
 
 Data/ 
 └── raw (original datasets )
+
 └── Clean (clean data)
+
 └── processed (preprocesside data)
+
 └── Ready (ready for model to compare)
+
 └── Model (trained artifacts (movies.pkl, similarity.pkl))
 
 Notebook/ 
 └── 1_eda.ipynb(for data exploration)
+
 └── 2_data_cleaning.ipynb (for data cleaning)
+
 └── 3_data_preprocessing.ipynb (for preprocessing data)
+
 └── 4_feature_engineering.ipynb (feature work)
+
 └── model.ipynb (training)
 
 SRC/ 
 └── data_cleaning.py
+
 └── data_loader.py
+
 └── data_preprocessing.py
+
 └── extract_names.py
 
 ## Tech Stacks
